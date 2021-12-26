@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace first_project
 {
@@ -10,13 +10,14 @@ namespace first_project
             Console.Title = "quiz";
             
             //the question
-            Console.WriteLine("What is the best cartoon trilogy in the world");
+            Console.WriteLine("What is the best film in the world");
             string name = Console.ReadLine();
-
-            if (name == "Oggy and the cockroaches")
+            
+            if (name == "Lord of the rings")
             {
                 Console.WriteLine("Correct");
             }
+            //this is the chance to give after every wrong answer
             else
             {
                 Console.WriteLine("Wrong");
@@ -32,13 +33,14 @@ namespace first_project
                 
             }    
 
-            
+            //this space to get gap between question and answer
             
             
             Console.WriteLine("Who is the best human in the world");
             string answer = Console.ReadLine();
 
-            
+            //this is the answer
+
             if (answer == "elon musk")
             {
                 Console.WriteLine("Correct");
